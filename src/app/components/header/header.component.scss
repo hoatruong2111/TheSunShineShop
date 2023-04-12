@@ -1,0 +1,62 @@
+.heading-section {
+  font-size: 28px;
+  color: #000;
+}
+h2 {
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+  .order-md-last {
+    -webkit-box-ordinal-group: 14;
+    -ms-flex-order: 13;
+    order: 13;
+  }
+}
+
+.ftco-navbar-light {
+  background: #252525 !important;
+  z-index: 3;
+  padding: 0;
+  width: 100%;
+}
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  white-space: nowrap;
+}
+
+.navbar-brand {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.navbar-brand span {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.3);
+}
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
+}
+:host ::ng-deep {
+  .p-avatar {
+    width: 100px;
+    height: 100px;
+  }
+}
