@@ -31,18 +31,36 @@ img {
   height: 100%;
   object-fit: cover;
   cursor: pointer; 
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  background: #fff;
 }
 
 .masonry-item {
-  width: 300px;
-  margin: 15px;
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  // width: 300px;
+  margin-bottom: 15px;
+  // box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .home-container {
   width: 100%;
-  max-width: 1360px;
+  max-width: 1400px;
   margin: 0 auto;
   padding-bottom: 60px;
-  padding-top: 170px;
+  padding-top: 200px;
+}
+
+
+:host::ng-deep {
+  ngx-masonry {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    padding-top: 300px;
+  }
 }

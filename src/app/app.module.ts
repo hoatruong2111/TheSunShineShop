@@ -19,7 +19,6 @@ import { UploadPhotosComponent } from './components/upload-photos/upload-photos.
 import { NgxMasonryModule } from 'ngx-masonry';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-
 @NgModule({
   declarations: [
     AppComponent,
