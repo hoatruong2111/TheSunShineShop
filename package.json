@@ -19,6 +19,8 @@
     "@angular/platform-browser": "^14.1.0",
     "@angular/platform-browser-dynamic": "^14.1.0",
     "@angular/router": "^14.1.0",
+    "@fontsource/arimo": "^4.5.11",
+    "@fontsource/dancing-script": "^4.5.11",
     "bootstrap": "^4.6.1",
     "firebase": "^9.19.1",
     "ngx-masonry": "^14.0.1",

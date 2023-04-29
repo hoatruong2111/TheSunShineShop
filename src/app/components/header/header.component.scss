@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima&display=swap');
+
 .heading-section {
-  font-size: 28px;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: Dancing Script;
   color: #000;
 }
 h2 {
@@ -7,7 +12,6 @@ h2 {
   font-weight: 400;
   margin-bottom: 0.5rem;
   margin-top: 0;
-  font-family: "Poppins", Arial, sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -19,32 +23,28 @@ h2 {
 }
 
 .ftco-navbar-light {
-  background: #252525 !important;
+  background: cadetblue;
   z-index: 3;
   padding: 0;
   width: 100%;
 }
 .navbar-brand {
+  font-family: Arima;
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   white-space: nowrap;
-}
-
-.navbar-brand {
-  color: #000;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 20px;
-  line-height: 1.2;
 }
 
 .navbar-brand span {
   display: block;
   font-size: 15px;
-  font-weight: 700;
-  color: rgba(0, 0, 0, 0.3);
+  font-weight: 800;
+  color: rgba(15, 15, 15, 0.3);
 }
 .header-container {
   position: fixed;
@@ -53,10 +53,27 @@ h2 {
   width: 100%;
   background-color: #fff;
   z-index: 999;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 :host ::ng-deep {
   .p-avatar {
     width: 100px;
     height: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    display: none;
+  }
+}
+
+.phone {
+  color: #fff;
+  margin: 0;
+  padding: 15px;
+  a {
+    color: #fff !important;
   }
 }

@@ -10,7 +10,7 @@ export class HomeComponent implements OnInit {
   imagesList: any[];
   isLoading = true;
   myOptions = {
-    gutter: 10
+    // gutter: 10
   };
   constructor(private handleImangeService: HandleImagesService) { }
   ngOnInit(): void {
